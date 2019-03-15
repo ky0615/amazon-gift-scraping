@@ -1,0 +1,23 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "no-console": [false],
+        "no-shadowed-variable": [false],
+        "ordered-imports": [false],
+        "object-literal-sort-keys": [false],
+        "member-ordering": [false],
+        "arrow-parens": [true, "ban-single-arg-parens"],
+        "member-access": [false],
+        "no-relative-imports": false,
+        "no-http-string": false,
+        "no-backbone-get-set-outside-model": false,
+        "semicolon": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+        "no-namespace": [true, "allow-declarations"],
+        "curly": [true, "ignore-same-line"],
+        "max-line-length": [false]
+    },
+    "linterOptions": {
+        "typeCheck": true
+    }
+}

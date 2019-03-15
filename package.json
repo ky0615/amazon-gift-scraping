@@ -1,0 +1,24 @@
+{
+  "name": "amazon-gift-scraping",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": " npm run build && cross-env HEADLESS=false node dist/app.js",
+    "build": "npm run lint && tsc",
+    "test": "echo not coufigure",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "tslint-microsoft-contrib": "^6.1.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.29",
+    "@types/node": "^11.11.3",
+    "@types/puppeteer": "^1.12.3",
+    "cross-env": "^5.2.0",
+    "puppeteer": "^1.13.0"
+  }
+}
