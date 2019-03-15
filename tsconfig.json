@@ -15,7 +15,6 @@
         }
     },
     "include": [
-      "src/**/*",
-      "../../../Library/Preferences/WebStorm2018.3/javascript/nodejs/10.9.0/node-typings/node_modules/@types/node/globals.d.ts"
+      "src/**/*"
     ]
 }
